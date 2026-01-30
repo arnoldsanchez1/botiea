@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__)
 
 # --- TUS CREDENCIALES (Configuradas para Producción) ---
-WHATSAPP_TOKEN = 'EAANWuMDMXXABQnad1u0rOzpeKVppfIfemAhGngyBNuYQ1z32LlpChZCOrSoCz4msyK0C0PC7vtExTPSEMKwkoCDwMtAb28r1rdFkecjU9Qox1hXhs7QFfQwbdIH5hFJNoOMNbjgYTaZBQ9cVYaKe77DVBpshC21LZBLBbmcUyknpO0ybPvMQxCNBuuYLqSLA0ueLP0iGknRakXWONqXZA9SAwS2drfwleukVB8xtzSxuGTRBfOBWYKbgTR5AotolbgqVKxgYYnc6EwHlxbNy'
+WHATSAPP_TOKEN = 'EAANWuMDMXXABQiCWb98z3hiATEXksdRaLImoZBxEADIa3p7ydtANiPgxtIbtU81bFAxIketlSCzaZChM0hyYdRlofyFZBDIuZBB9mlSi86cJVxgjPvBKo8AeU3rjLZClaNIhoh1RtqUmeb0EmjeZCxokHi57IwZCMr4eOo7sGH6hKAX2czkqtEkuJ2k4ZAeWw8MITx8fgICZC0ZB6trZAbZCF0ZCeW8iGWICpoyPqNk2nK2mUzq7hAQEoIcw9E8CqNTOLwPTqezHZBLAjrr5G3y3QZAEVnOZCgZDZD'
 PHONE_ID = '935331223004041'
 VERIFY_TOKEN = 'ingenio123'
 
@@ -194,4 +194,5 @@ if __name__ == '__main__':
     # host='0.0.0.0' es OBLIGATORIO para que Render funcione
 
     app.run(host='0.0.0.0', port=port)
+
 
