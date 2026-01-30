@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__)
 
 # --- TUS CREDENCIALES (Configuradas para Producción) ---
-WHATSAPP_TOKEN = 'EAANWuMDMXXABQtwrtZCpZA5flqnqWdMy3BRLZCZCrhpdEEZB2qZBUwrjlJfxbf0ZCwTG8DFE0NczrAZCMXjHx8LrDcEOXdxXfsgfnTcVZBey2RXYhoQxKZAqaqOXObBo9BMSUSyUkxbgHo1DhHYNO74wXOTajzLWsZCTqs1ZA2tvOIghMqA9ASZBOi7idH1ZALfnUjznZASaCSBoPPrVjGG9lvkbftInUaqjyyj3I8nJAOZCYj2UKyYtHbSSq1bZC388ZC0LyATiO9y3wogwhpNwQ5ygHzaonT'
+WHATSAPP_TOKEN = 'EAANWuMDMXXABQnad1u0rOzpeKVppfIfemAhGngyBNuYQ1z32LlpChZCOrSoCz4msyK0C0PC7vtExTPSEMKwkoCDwMtAb28r1rdFkecjU9Qox1hXhs7QFfQwbdIH5hFJNoOMNbjgYTaZBQ9cVYaKe77DVBpshC21LZBLBbmcUyknpO0ybPvMQxCNBuuYLqSLA0ueLP0iGknRakXWONqXZA9SAwS2drfwleukVB8xtzSxuGTRBfOBWYKbgTR5AotolbgqVKxgYYnc6EwHlxbNy'
 PHONE_ID = '935331223004041'
 VERIFY_TOKEN = 'ingenio123'
 
@@ -192,4 +192,5 @@ if __name__ == '__main__':
     # Si no existe (local), usa el 5000
     port = int(os.environ.get("PORT", 5000))
     # host='0.0.0.0' es OBLIGATORIO para que Render funcione
+
     app.run(host='0.0.0.0', port=port)
